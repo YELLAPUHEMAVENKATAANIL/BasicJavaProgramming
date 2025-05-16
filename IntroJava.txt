@@ -1,6 +1,7 @@
 Java was developed by James Gosling at Sun Microsystems Inc. in May 1995 may later aquired by oracle
 Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
-It is intended to let application developers Write Once and Run Anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation
+It is intended to let application developers Write Once and Run Anywhere (WORA), 
+meaning that compiled Java code can run on all platforms that support Java without the need for recompilation
 
                                 Key Features of Java
 
