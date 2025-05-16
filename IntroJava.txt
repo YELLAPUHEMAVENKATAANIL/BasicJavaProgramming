@@ -1,0 +1,42 @@
+Java was developed by James Gosling at Sun Microsystems Inc. in May 1995 may later aquired by oracle
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
+It is intended to let application developers Write Once and Run Anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation
+
+                                Key Features of Java
+
+
+    1. Platform Independent  
+    2. Object-Oriented Programming
+    3.Simplicity
+    4.Robustness
+    5.Security
+    6.Distributed
+    7.Multithreading 
+    8.Portability  
+    9.High Performance 
+
+
+    How java code is Executes?
+
+    1. Creating the Program  
+        -> Java programs are written using a text editor or an Integrated Development Environment (IDE) like IntelliJ IDEA, Eclipse, vscode;
+        -> The source code is saved with a .java extension (example - hello.java)
+        -> The file name and class name should be Same .
+
+    2. Compiling the Program 
+        ->The Java compiler (javac) converts the source code into bytecode, which is stored in a .class file 
+        ->This bytecode is platform-independent and can be executed on any machine with a JVM.
+        ->Syntax to compile a program   (javac filename.java) (example -> javac hello.java)
+
+    3.Running the Program
+        ->The JVM executes the compiled bytecode, translating it into machine code specific to the operating system and hardware.
+
+    Example code :
+    class hello{
+        public static void main(String[] args){
+            system.out.println("Hello World!!");
+        }
+    }
+
+    
+
