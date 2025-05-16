@@ -1,0 +1,90 @@
+    variables :
+        -> Variables are containers that store data in memory. 
+        -> variables plays a very important role as it defines how data is stored, accessed, and manipulated.
+
+    ----- Key Components of variables ---- 
+        -> DataType : Defines the kind of data stored  (Example:Int,String,float,double)
+        -> VariableName : A unique identifier following Java naming rules.   (Example : int number => Number is VariableName)
+        -> Value : The actual data assigned to the variable.  (Example : int Number = 10;)
+                                                                                       |->  10 is Value
+
+            Examples :
+                int Number = 10;
+                String Name = "Anil";
+                float pi = 3.14;
+
+
+                                        ---- Types of Java Variables ----
+                                                        |
+                             ___________________________|___________________________ 
+                             ↓                          ↓                           ↓
+                            Local Variables             Instance Variables          static Variables
+
+
+
+        1.Local Variables  : A variable defined within a block or method or constructor is called a local variable. 
+            ->  Local variables are works inside function ,it will not work outside function.
+
+            Example code:
+                class Main{
+                    public static void main(String[] args){
+                        int num1 =10;  //  declared as Local variable
+
+                        system.out.println(num1);
+                         
+                    }
+                }
+
+        2.Instance Variables :
+            -> Instance variables are known as non-static variables and are declared in a class outside of any method, constructor, or block.
+            -> The variables are declared inside class outside the function or method
+            -> The Instance variables we can use inside the functions also.
+            
+            Example Code:
+             public class Person{
+                // Instance variables
+
+                String Name;
+                int age;
+
+                // Method to display person details
+                void displayInfo() {
+                    System.out.println("Name: " + name);
+                    System.out.println("Age: " + age);
+                }
+                public static void main(String[] args){
+
+                    Person p1 = new Person();  // creating a object
+                    p1.name = "Anil";
+                    p1.age = 20;
+
+                    p1.displayInfo();
+                }
+             } 
+
+        3. static variables:
+            -> Static variables are also known as class variables. 
+            -> These variables are declared similarly to instance variables. 
+            -> The difference is that static variables are declared using 
+                the static keyword within a class outside of any method, constructor, or block
+
+
+            Example Code: 
+
+            public  class Main{
+                // static variable
+                static int count =0;
+
+                // static Method
+                static void increseCount(){
+                    count++;
+                    System.our.println(count);
+                }
+
+                public static void main (String[] args){
+                    increseCount();
+                    increseCount();
+                }
+            }
+
+
