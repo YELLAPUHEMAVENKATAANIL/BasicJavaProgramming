@@ -1,0 +1,22 @@
+Datatypes :
+    -> Datatypes are two types they are:
+        1.primitive Datatypes
+        2.Non Primitive Datatypes
+
+1.primitive Datatypes :
+    -> byte, short, int, long, float, double, boolean and char
+
+        1.byte : Stores whole numbers from -128 to 127
+        2.short: Stores whole numbers from -32,768 to 32,767
+        3.int  : Stores whole numbers from -2,147,483,648 to 2,147,483,647
+        4.long : Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+        5.float: Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+        6.double: Stores fractional numbers. Sufficient for storing 15 to 16 decimal digits
+        7.boolean: Stores true or false values
+        8.char: stores a single character/letter or ASCII values
+
+2. Non primitive Datatypes :
+    -> String , Arrays
+
+    
+
