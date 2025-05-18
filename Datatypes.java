@@ -21,6 +21,8 @@ public class Datatypes {
         System.out.println("Double value is:"+dvalue);
         System.out.println("char value is"+cvalue);
 
+        sc.close();
+
     }
     
 }
