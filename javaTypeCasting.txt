@@ -1,0 +1,19 @@
+Java TypeCasting :
+    -> TypeCasting is assign value  of one primitive datatype to another datatype.
+
+    Types of Casting :
+        -> Widenning Casting (Automatically) :
+            -> This casting works on Automatically java will handle 
+            -> This casting converting Smaller type to Larger type
+
+                byte -> short -> char -> int -> long -> float -> double
+
+        -> Narrowing Casting (Manual By person):
+            -> It was handled by the person 
+            -> converts larger value to Smaller value
+
+                double -> float -> long -> int -> char -> short -> byte
+
+
+                
+
