@@ -1,0 +1,44 @@
+Arrays : 
+    -> That allow us to store multiple values of the same type in a single variable.
+    -> Instead declaring mulitple same datatype separately  declare in one variable.
+    -> For primitive arrays, elements are stored in a contiguous memory location
+    -> For non-primitive arrays, references are stored at contiguous locations.
+    -> Zero-based Indexing: The first element of the array is at index 0.
+    -֫> Fixed Length: Once an array is created, its size is fixed and cannot be changed.
+    -> Java array can hold both primitive types 
+
+Basics of Arrays in Java :
+
+1. Array Declaration: 
+    -> To declare an array in Java, use the following syntax
+        -> type[] arrayName;  (Example : int [] data).
+
+2. Create an Array :
+    -> To create an array, you need to allocate memory for it using the new keyword ;
+        Syntax:
+            -> int [] arr = new int[size];
+
+
+Types of Arrays in Java :
+1. Single-Dimensional Arrays
+2. Multi-Dimensional Arrays
+
+    -> Single-Dimensional Arrays :
+        -> These are the most common type of arrays, where elements are stored in a linear order.
+
+        -> int [] arr = new int[size] or int [] arr = {10,20,30,40,50}
+
+    -> Multi-Dimensional Arrays :
+        -> Arrays with more than one dimension, such as two-dimensional arrays (matrices).
+
+        -> int [][] arr = new int [size][size];
+                        or
+        -> int [][] arr = {
+            {10,20,30},
+            {40,50,60},
+            {70,80,90}  
+        }
+
+
+
+        
