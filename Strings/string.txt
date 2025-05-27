@@ -1,0 +1,33 @@
+String : 
+    -> String is the type of object that can store a sequence of characters enclosed by double quotes,
+     and every character is stored in 16 bits, i.e., using UTF 16-bit encoding
+     -> strings allowing for various operations such as concatenation, comparison, and manipulation.
+
+     Ways of Creating a Java String :
+        -> String literal 
+        -> By using new KeyWord
+
+
+    1. String literal (Static Memory) :
+        -> To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
+        -> It was created in string pool or constant pool
+        -> String literals are stored in the read-only section of memory
+        -> These string are Immutable we cannot chanage.
+        -> Java uses string interning, so identical string literals share the same memory location
+
+
+         Example : 
+            -> String str = "Venkata Anil";
+
+    2. using new KeyWord : 
+        -> String s = new String("Welcome");
+        ->  JVM will create a new string object in normal (non-pool) heap memory
+        -> In the given example only one object will be created. 
+        -> Firstly JVM will not find any string object with the value "Welcome" in the string constant pool, so it will create a new object.
+        -> After that it will find the string with the value "Welcome" in the pool, 
+        -> it will not create a new object but will return the reference to the same instance.
+
+        Example :
+            -> String str  = new String("venkata Anil");
+            
+             
