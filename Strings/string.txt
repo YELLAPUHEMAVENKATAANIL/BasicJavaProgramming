@@ -1,4 +1,5 @@
 String : 
+    -> String: It is a sequence of characters. In Java, objects of String are immutable which means a constant and cannot be changed once created.
     -> String is the type of object that can store a sequence of characters enclosed by double quotes,
      and every character is stored in 16 bits, i.e., using UTF 16-bit encoding
      -> strings allowing for various operations such as concatenation, comparison, and manipulation.
@@ -30,4 +31,58 @@ String :
         Example :
             -> String str  = new String("venkata Anil");
             
-             
+    Interfaces and Classes in Strings in Java :
+        -> CharBuffer: This class implements the CharSequence interface. 
+        -> This class is used to allow character buffers to be used in place of CharSequences.
+    
+    CharSequence interface :
+        -> CharSequence Interface is used for representing the sequence of Characters in Java
+        -> Those are  :
+            1. String
+            2. StringBuffer
+            3. StringBulider
+
+    1. String :
+        -> String is an immutable class which means a constant and cannot be changed once created 
+        ->  if wish to change , we need to create an new object and even the functionality it provides like toupper, 
+            tolower,etc all these return a new object , its not modify the original object. It is automatically thread safe.
+
+        Examples :
+        / Method 1
+            String str= "geeks";
+
+        // Method 2 
+            String str= new String("geeks")
+
+    2. StringBuffer :
+        -> StringBuffer is a peer class of String ,
+        ->  it is mutable in nature and it is thread safe class , we can use it when we have
+             multi threaded environment and shared object of string buffer
+        
+        Syntax :
+            StringBuffer str = new StringBuffer("VenkataAnil");
+
+    3. StringBulider : 
+        -> StringBuilder in Java represents an alternative to String and StringBuffer Class,
+        -> it creates a mutable sequence of characters and it is not thread safe. 
+
+        Syntax :
+            StringBulider str = new StringBuilder()
+            str.append("Venkata")
+
+
+    Memory Allotment of Java String : 
+        1.String literal :
+            -> Whenever a String Object is created as a literal, the object will be created in the String constant pool.
+            -> This allows JVM to optimize the initialization of String literal. 
+            -> The string constant pool is present in the heap.
+
+        2. Using new Keyword :
+            -> he string can also be declared using a new operator i.e. dynamically allocated.
+            -> String are dynamically allocated they are assigned a new memory location in the heap.
+            -> This string will not be added to the String constant pool.
+
+
+            -> If we want to store this string in the constant pool then we will need to “intern” it.
+            -> Using .intern() to add a string object in string constant pool.
+            
